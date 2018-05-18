@@ -1,0 +1,18 @@
+{
+  "name": "dangerweb",
+  "version": "1.0.0",
+  "description": "the most insecure browser in the planet. please only use this for testing and debugging.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "nodemon"
+  },
+  "keywords": [
+    "browser"
+  ],
+  "author": "Peter Fraedrich",
+  "license": "MIT",
+  "dependencies": {
+    "promise": "^8.0.1"
+  }
+}
