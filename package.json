@@ -5,13 +5,14 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "nodemon"
+    "test": "nodemon -x electron ."
   },
   "keywords": [
     "browser"
   ],
   "author": "Peter Fraedrich",
   "license": "MIT",
+  "repository" : "git@github.com:peterfraedrich/dangerweb.git",
   "dependencies": {
     "promise": "^8.0.1"
   }
